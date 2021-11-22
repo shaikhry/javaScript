@@ -1,0 +1,26 @@
+.first{
+width: 400px;
+height: 400px;
+background-color: darkmagenta;
+float: left;
+position: absolute;
+left: 800px;
+
+}
+.second{
+width: 400px;
+height: 400px;
+background-color: darkorange;
+float: left
+
+}
+.third{
+width: 400px;
+height: 400px;
+background-color: deeppink;
+float: left
+
+
+}
+
+    

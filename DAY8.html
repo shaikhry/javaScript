@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getDetails(){
+      var ele = document.getElementById("country")
+      var ele2 = document.getElementById("state")
+      var ele3 = document.getElementById("city")
+      var address = ele3.value + "," + ele2.value + " - " + ele.value
+      console.log(address);
+      document.getElementById("address").innerHTML=address
+      var p=document.getElementById("ptag")
+      console.log(p.innerHTML)
+      document.getElementById("result").value=address
+        }
+    </script>
+</head>
+<body>
+ Country Name <input id="country" type="text" value="india">
+    <br>
+    state <input id="state" type="text" value="maharashtra"> 
+    <br>
+    city <input id="city" type="text" value="nanded">
+   <br>
+    <button onclick="getDetails()">get details</button>
+    <h1 id="address"></h1>
+    <p id="ptag">this is p tag</p>
+    <br>
+    <input id ="result" type="text" value="address">
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.first{
+width: 400px;
+height: 400px;
+background-color: blue;
+float: left;
+position: relative;
+left: 800px;
+}
+.second{
+width: 400px;
+height: 400px;
+background-color: chartreuse;
+float: left;
+
+}
+.third{
+width: 400px;
+height: 400px;
+background-color: cyan;
+float: left;
+position: relative;
+right: 800px;
+
+}
